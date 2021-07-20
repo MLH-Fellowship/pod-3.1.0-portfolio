@@ -1,7 +1,16 @@
-- image: twitter.png
+- image: mail.png
   link: https://twitter.com/MrBeast
-  alt: Something here
+  alt: Mail Icon
 
 - image: twitter.png
   link: https://twitter.com/MrBeast
-  alt: Something here alt2
+  alt: Twitter Icon
+
+- image: linkedin.png
+  link: https://twitter.com/MrBeast
+  alt: LinkedIn Icon
+
+- image: github.png
+  link: https://twitter.com/MrBeast
+  alt: Github Icon
+
