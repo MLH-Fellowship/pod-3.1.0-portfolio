@@ -40,14 +40,16 @@
 <div class="contact">
     <div id="heading"><h3>Contact Us</h3></div>
     <div class="contactform">
-        <form action="" method="">
+        <form action="{{site.form_url}}" method="POST">
             <label>Name</label>
-            <div class="cfdiv"><input type="text" name="name" placeholder="Your name.."/></div>
+            <div class="cfdiv"><input type="text" name="name" placeholder="Your name.." required="true"/></div>
             <label>Email</label>
-            <div class="cfdiv"><input type="text" name="email" placeholder="Your email.."/></div>
+            <div class="cfdiv"><input type="text" name="email" placeholder="Your email.." required="true"/></div>
             <label>Message</label>
-            <div class="cfdiv"><textarea name="message" placeholder="Write Something.."></textarea></div>
+            <div class="cfdiv"><textarea name="message" placeholder="Write Something.." required="true"></textarea></div>
             <button type="submit">Submit</button>
         </form>
-    </div>  
+    </div>
+    
 </div>
+
