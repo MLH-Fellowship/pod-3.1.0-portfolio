@@ -1,16 +1,15 @@
-- image: mail.png
-  link: https://twitter.com/MrBeast
-  alt: Mail Icon
+- link: +1 9976543210
+  class: fas fa-phone-square-alt
 
-- image: twitter.png
-  link: https://twitter.com/MrBeast
-  alt: Twitter Icon
+- link: https://twitter.com/username
+  class: fas fa-envelope
 
-- image: linkedin.png
-  link: https://twitter.com/MrBeast
-  alt: LinkedIn Icon
+- link: https://twitter.com/username
+  class: fab fa-twitter-square
 
-- image: github.png
-  link: https://twitter.com/MrBeast
-  alt: Github Icon
+- link: https://linkedin.com/username
+  class: fab fa-linkedin
+
+- link: https://github.com/username
+  class: fab fa-github
 

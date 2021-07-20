@@ -1,5 +1,5 @@
 {% for item in site.data.social_links %}
-    <a href={{ item.link }}>
-        <img src="./assets/img/social_links/{{ item.image }}" alt={{ item.alt }}>
+    <a href={{ item.link }} class="footer-links">
+        <i class="{{ item.class }}"></i>
     </a>
 {% endfor %}
