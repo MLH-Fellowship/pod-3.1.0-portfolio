@@ -1,62 +1,5 @@
-<style type="text/css" media="screen">
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-    .contact{
-        font-family: 'Poppins', sans-serif;
-    }
-
-    #heading {
-      text-align: center;
-      background-color: #ebf0f5;
-      border: 2px solid #e1e1e3;
-      height: 40px;
-    }
-    h3 {
-        margin-top: 6px;
-      	font-weight: 600;
-    }
-    .contactform {
-        margin-top: 12px;
-        margin-right: auto;
-        margin-left: auto;
-        width: 500px;
-    }
-    .cfdiv {
-        margin-bottom: 12px;
-    }
-    input {
-        height:35px;
-        width: 500px;
-        padding: 10px;
-        border: 2px solid #e1e1e3;
-    }
-    textarea {
-        height:80px;
-        width: 500px;
-        padding: 10px;
-        border: 2px solid #e1e1e3;
-    }
-    label {
-    	font-weight: 500;
-        margin-top: 5px;
-    	padding-left: 5px;
-    }
-    button {
-        height: 35px;
-        width: 70px;
-        background-color: #3923a6;
-        color: white;
-        border: 2px solid #e1e1e3;
-        outline: none;
-        opacity: 0.8;
-        transition: 0.5s;
-    }
-
-    button:hover {opacity: 1.5}
-  </style>
-
 <div class="contact">
-    <div id="heading"><h3>Contact Us</h3></div>
+    <div id="heading"><h2>Contact Us</h2></div>
     <div class="contactform">
         <form action="{{site.form_url}}" method="POST">
             <label>Name</label>
@@ -67,6 +10,5 @@
             <div class="cfdiv"><textarea name="message" placeholder="Write Something..." required="true"></textarea></div>
             <button type="submit">Submit</button>
         </form>
-    </div>
-    
+    </div>  
 </div>
