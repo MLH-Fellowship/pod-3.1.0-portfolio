@@ -4,16 +4,14 @@
     .contact{
         font-family: 'Poppins', sans-serif;
     }
-
     #heading {
       text-align: center;
       background-color: #ebf0f5;
       border: 2px solid #e1e1e3;
       height: 40px;
     }
-    h3 {
-        margin-top: 6px;
-      	font-weight: 600;
+    h2 {
+        margin-top: 9px;
     }
     .contactform {
         margin-top: 12px;
@@ -51,12 +49,13 @@
         opacity: 0.8;
         transition: 0.5s;
     }
-
-    button:hover {opacity: 1.5}
+    button:hover {
+        opacity: 1.5
+    }
   </style>
 
 <div class="contact">
-    <div id="heading"><h3>Contact Us</h3></div>
+    <div id="heading"><h2>Contact Us</h2></div>
     <div class="contactform">
         <form action="{{site.form_url}}" method="POST">
             <label>Name</label>
@@ -67,6 +66,5 @@
             <div class="cfdiv"><textarea name="message" placeholder="Write Something..." required="true"></textarea></div>
             <button type="submit">Submit</button>
         </form>
-    </div>
-    
+    </div>  
 </div>
