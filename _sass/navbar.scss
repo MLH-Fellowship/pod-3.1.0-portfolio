@@ -2,47 +2,33 @@
   width: 100%;
   display: inline-block;
   background-color: #1c539f;
-  font-family: "Poppins", serif;
+  font-family: 'Poppins', serif;
   font-weight: 700 !important;
   padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #f5f5f9;
 }
 
 .nav-content {
   display: flex;
   flex-direction: row;
-  padding: 3px 3% 3px 2%;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 2px solid white;
-}
-
-.nav-content .logo-touch-target {
-  display: inline-flex;
-  height: 60%;
-  width: 350px;
+  height: 60px;
+  width: 100%;
+  padding: 0 20px 0 20px;
+  transition: all 0.3s;
 }
 
 .nav-content .nav-logo {
-  height: 60px;
-  margin: auto;
-}
-
-.nav-logo {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.nav-logo img {
+.nav-content .nav-logo img {
   width: 200px;
-}
-
-.nav-content nav {
-  display: block;
-  width: 100%;
-  text-align: right;
-  padding-top: 0px;
-  padding-right: 0px;
+  transition: all 0.3s;
 }
 
 .resume-button {
@@ -52,8 +38,31 @@
   border: 1px solid white;
   font-weight: 600;
   color: #1c539f;
+  transition: all 0.3s;
 }
 
 .resume-button:hover {
   background-color: #f5f5f9e7;
+}
+
+@media screen and (max-width: 800px) {
+  .nav-content {
+    height: 50px;
+  }
+  .nav-content .nav-logo img {
+    width: 170px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nav-content {
+    height: 40px;
+  }
+  .nav-content .nav-logo img {
+    width: 130px;
+  }
+  .resume-button {
+    padding: 2px 8px 2px 8px;
+    font-size: 3.5vw;
+  }
 }
