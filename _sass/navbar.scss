@@ -6,14 +6,17 @@
   font-weight: 700 !important;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-bottom: 2px solid #f5f5f9;
 }
 
 .nav-content {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   height: 60px;
+  width: 100%;
+  padding: 0 20px 0 20px;
   transition: all 0.3s;
 }
 
@@ -26,6 +29,20 @@
 .nav-content .nav-logo img {
   width: 200px;
   transition: all 0.3s;
+}
+
+.resume-button {
+  border-radius: 4px;
+  padding: 5px 12px 5px 12px;
+  background-color: #f5f5f9;
+  border: 1px solid white;
+  font-weight: 600;
+  color: #1c539f;
+  transition: all 0.3s;
+}
+
+.resume-button:hover {
+  background-color: #f5f5f9e7;
 }
 
 @media screen and (max-width: 800px) {
@@ -43,5 +60,9 @@
   }
   .nav-content .nav-logo img {
     width: 130px;
+  }
+  .resume-button {
+    padding: 2px 8px 2px 8px;
+    font-size: 3.5vw;
   }
 }
