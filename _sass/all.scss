@@ -8,6 +8,32 @@
 @import 'footer';
 @import "podMember";
 
+/*-----Dark-Mode------*/
+.dark-mode{
+  background-color: #121212!important;
+  color: #fff;
+}
+
+.dark-mode .nav-bar{
+  background-color: #4a1ad9;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+}
+.dark-mode .card{
+  background-color: #121212!important;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.dark-mode .profile, .dark-mode .footer{
+  background-color: #4a1ad9!important;
+}
+
+.dark-mode .resume-button{
+  background-color: #4a1ad9;
+  border: 1.5px solid #fff;
+  color: #fff;
+}
+
 .card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -43,6 +69,7 @@ body {
   background-color: #f5f5f9;
   margin-bottom: 50px;
 }
+
 h2 {
   margin-bottom: 20px;
   margin-top: 20px;
