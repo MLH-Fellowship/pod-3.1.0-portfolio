@@ -46,3 +46,17 @@ nav {
 .navlinks a:hover {
   text-decoration: underline;
 }
+
+#projectdivoffset{
+  display:block;
+  position:relative;
+  top:-160px;
+  visibility:hidden
+}
+
+#expdivoffset{
+  display:block;
+  position:relative;
+  top:-100px;
+  visibility:hidden
+}
