@@ -63,6 +63,15 @@ layout: page
   page-name: project
 ```
 
+## Add contact form email
+1. Create a formspree account here: https://formspree.io/register 
+2. A verfication mail will be sent to the registered email id. Complete verification before the following steps.
+3. Click on the new project button and then add new form in the project by providing an appropriate name and a valid email id on which you want to be contacted.
+4. After the form is created, the form's endpoint can be accessed in the `Integeration` tab. The endpoint would look like : https://formspree.io/f/yadayada
+5. Copy the endpoint url and add it to the `form_url` in `_config.yml` file. Example : `form_url: "https://formspree.io/f/yadayada"`
+6. All the submissions will be visible on the `Submissions` tab. An email will also be sent by default. If you don't see a submission email, you can switch to the `Settings` tab and make sure the `Email Notifications` toggle is on.
+
+
 ## Development
 
 If you want to test it locally or add some new features, run the below commands. Make sure to have Ruby and Bundler installed.
