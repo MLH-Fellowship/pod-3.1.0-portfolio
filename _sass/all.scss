@@ -5,6 +5,7 @@
 @import 'profile';
 @import 'page';
 @import 'contact';
+@import 'footer';
 
 .card-container {
 	display: grid;
@@ -88,4 +89,25 @@ a {
 	img {
 		width: 100%;
 	}
+}
+.project>.content {
+  color: white;
+  display: none;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+.project:hover{
+  background-color: #1C539F;
+}
+.project:hover>.content {
+  display: block;
+}
+
+.project:hover>.info {
+  display: none;
+}
+
+.arrow{
+  float:right;
 }

@@ -1,0 +1,15 @@
+- link: +1 9976543210
+  class: fas fa-phone-square-alt
+
+- link: https://twitter.com/username
+  class: fas fa-envelope
+
+- link: https://twitter.com/username
+  class: fab fa-twitter-square
+
+- link: https://linkedin.com/username
+  class: fab fa-linkedin
+
+- link: https://github.com/username
+  class: fab fa-github
+
