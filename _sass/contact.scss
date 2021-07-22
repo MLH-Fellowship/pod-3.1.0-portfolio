@@ -12,20 +12,20 @@
 	margin-top: 12px;
 	margin-right: auto;
 	margin-left: auto;
-	width: 500px;
+	width: 400px;
 }
 .cfdiv {
 	margin-bottom: 12px;
 }
 .cfdiv input {
 	height: 35px;
-	width: 500px;
+	width: 100%;
 	padding: 10px;
 	border: 2px solid #e1e1e3;
 }
 .cfdiv textarea {
 	height: 80px;
-	width: 500px;
+	width: 100%;
 	padding: 10px;
 	border: 2px solid #e1e1e3;
 }
@@ -46,4 +46,14 @@
 }
 button:hover {
 	opacity: 1.5;
+}
+@media only screen and (max-width: 800px) {
+	.contactform {
+		width: 300px;
+	}
+}
+@media only screen and (max-width: 330px) {
+	.contactform {
+		width: 200px;
+	}
 }
