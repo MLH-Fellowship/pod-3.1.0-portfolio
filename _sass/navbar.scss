@@ -1,34 +1,22 @@
-.nav-bar {
-  width: 100%;
-  display: inline-block;
-  background-color: #1c539f;
-  font-family: 'Poppins', serif;
-  font-weight: 700 !important;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-bottom: 2px solid #f5f5f9;
-}
-
-.nav-content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+.nav-logo {
   height: 60px;
-  width: 100%;
-  padding: 0 20px 0 20px;
-  transition: all 0.3s;
-}
-
-.nav-content .nav-logo {
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.nav-content .nav-logo img {
+.nav-logo img {
   width: 200px;
-  transition: all 0.3s;
+}
+
+nav {
+  display: block;
+  width: 100%;
+  text-align: right;
+  padding-top: 0px;
+  padding-right: 0px;
+  font-family: 'Poppins', serif;
 }
 
 .resume-button {
@@ -38,31 +26,23 @@
   border: 1px solid white;
   font-weight: 600;
   color: #1c539f;
-  transition: all 0.3s;
 }
 
 .resume-button:hover {
   background-color: #f5f5f9e7;
 }
-
-@media screen and (max-width: 800px) {
-  .nav-content {
-    height: 50px;
-  }
-  .nav-content .nav-logo img {
-    width: 170px;
-  }
+.navlinks {
+  display: block;
+  justify-content: center;
+  margin-right: 2vw;
+}
+.navlinks a {
+  color: #f5f5f9;
+  padding-right: 20px;
+  font-weight: bold;
+  font-size: large;
 }
 
-@media screen and (max-width: 400px) {
-  .nav-content {
-    height: 40px;
-  }
-  .nav-content .nav-logo img {
-    width: 130px;
-  }
-  .resume-button {
-    padding: 2px 8px 2px 8px;
-    font-size: 3.5vw;
-  }
+.navlinks a:hover {
+  text-decoration: underline;
 }
