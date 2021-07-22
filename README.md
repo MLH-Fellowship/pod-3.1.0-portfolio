@@ -71,6 +71,23 @@ layout: page
 5. Copy the endpoint url and add it to the `form_url` in `_config.yml` file. Example : `form_url: "https://formspree.io/f/yadayada"`
 6. All the submissions will be visible on the `Submissions` tab. An email will also be sent by default. If you don't see a submission email, you can switch to the `Settings` tab and make sure the `Email Notifications` toggle is on.
 
+## Add Google Analytics
+
+1. Create a Google account if you don't have one
+
+2. Sign in to your [Analytics account](https://analytics.google.com/)
+
+3. Click Admin
+
+4. Select an account from the menu in the *ACCOUNT* column.
+
+5. Select a property from the menu in the *PROPERTY* column.
+
+6. Under *PROPERTY*, click *Tracking Info* -> *Tracking Code*. Your Tracking ID will be displayed at the top of the page
+
+7. Inside `_config.yml` file, simply enter your tracking id under `google-analytics` field.
+
+If you get stuck in any of these steps, refer [here](https://support.google.com/analytics/answer/1008080).
 
 ## Development
 
