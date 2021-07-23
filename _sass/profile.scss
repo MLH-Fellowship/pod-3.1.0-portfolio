@@ -1,8 +1,10 @@
 .profile {
-  background-color: #1d539f !important;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: linear-gradient(-45deg, #e73c7e, #00008B,#1d539f, #23a6d5);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
   h1 {
     font-size: 2.5em;
     font-weight: 700;
@@ -26,6 +28,18 @@
     height: 250px;
     transition: all 0.3s;
   }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 @media screen and (max-width: 400px) {
