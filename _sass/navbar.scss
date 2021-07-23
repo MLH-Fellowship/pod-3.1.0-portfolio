@@ -36,15 +36,24 @@ nav {
   justify-content: center;
   margin-right: 2vw;
 }
+
 .navlinks a {
   color: #f5f5f9;
-  padding-right: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
   font-weight: bold;
   font-size: large;
 }
-
-.navlinks a:hover {
-  text-decoration: underline;
+.navlinks a {
+  background: 
+      linear-gradient(currentColor 0 0) 
+      bottom /var(--d, 0) 3px 
+      no-repeat;
+  transition:0.5s;
+}
+a:hover {
+  --d: 100%;
+  text-decoration:none;
 }
 
 #projectdivoffset{
@@ -57,11 +66,24 @@ nav {
 #expdivoffset{
   display:block;
   position:relative;
-  top:-100px;
+  top:-140px;
+  visibility:hidden
+}
+#edudivoffset{
+  display:block;
+  position:relative;
+  top:-140px;
+  visibility:hidden
+}
+#memdivoffset{
+  display:block;
+  position:relative;
+  top:-140px;
   visibility:hidden
 }
 
 .button-container{
+    padding-top:1vw;
   display: flex;
   align-items: center;
 }
@@ -130,11 +152,21 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-@media screen and (max-width: 800px) {
-  .nav-content {
-    height: 50px;
-  }
-  .nav-content .nav-logo img {
+@media screen and (max-width: 600px) {
+  .nav-logo img {
     width: 170px;
   }
+  .navlinks{
+    margin-right:none;
+  }
+  .navlinks a{
+    padding-right: 3px;
+    padding-left: 2px;
+    font-size:small;
+  }
+  .button-container{
+    padding-top:10px;
+  }
 }
+
+
