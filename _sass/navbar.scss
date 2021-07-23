@@ -51,12 +51,90 @@ nav {
   display:block;
   position:relative;
   top:-160px;
-  visibility:hidden
-}
+  visibility:hidden;
+  }
 
 #expdivoffset{
   display:block;
   position:relative;
   top:-100px;
   visibility:hidden
+}
+
+.button-container{
+  display: flex;
+  align-items: center;
+}
+
+/*---------Slider----------*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 33.33px;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1d539f;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border: 1px solid #fff;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 32px;
+  width: 33.33px;
+  left: 0px;
+  bottom: 0px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #232323;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #232323;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(22px);
+  -ms-transform: translateX(22px);
+  transform: translateX(22px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .nav-content {
+    height: 50px;
+  }
+  .nav-content .nav-logo img {
+    width: 170px;
+  }
 }
