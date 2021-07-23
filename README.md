@@ -89,6 +89,37 @@ layout: page
 
 If you get stuck in any of these steps, refer [here](https://support.google.com/analytics/answer/1008080).
 
+## Add links to your social medias 
+
+Head to `_data` and fill out either `social_media.yml`. Here is an example for your reference: 
+
+```yaml
+- link: tel:+19876543210
+  class: fas fa-phone-square-alt
+
+- link: mailto:fellowship@mlh.io
+  class: fas fa-envelope
+
+- link: https://twitter.com/
+  class: fab fa-twitter-square
+
+- link: https://linkedin.com/
+  class: fab fa-linkedin
+
+- link: https://github.com/MLH-Fellowship
+  class: fab fa-github
+```
+
+Replace the links with your respective social media links in the following order: 
+
+1. Phone Number
+2. Mail
+3. Twitter
+4. LinkedIn
+5. GitHub
+
+Note - Please do not change anything in the `class` field. 
+
 ## Development
 
 If you want to test it locally or add some new features, run the below commands. Make sure to have Ruby and Bundler installed.
