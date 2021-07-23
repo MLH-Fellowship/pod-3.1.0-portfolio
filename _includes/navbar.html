@@ -1,12 +1,20 @@
-<header class="nav-bar">
-  <div class="nav-content">
-    <a href="{{ '/' | relative_url }}">
-      <div class="nav-logo">
-        <img src="./assets/img/logo.svg" />
-      </div>
-    </a>
+<nav class="navbar sticky-top navbar-expand-lg navbar-light"
+	style="background-color: #1c539f">
+  <a class="navbar-brand nav-logo" href="#">
+    <img src="./assets/img/logo.svg" alt="MLH">
+  </a>
+  <button style="margin-right: 20px;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <div class="button-container">
+  <div class="collapse navbar-collapse navlinks" id="navbarContent">
+        <a href="#projectdivoffset">Project</a>
+      <a href="#expdivoffset">Experience</a>
+      <a href="#edudivoffset">Education</a>
+      <a href="#memdivoffset">Our Team</a>
+      <a href="#contactdiv">Contact</a>
+  </div>
+  <div class="button-container">
         
         <label class="switch">
           <input type="checkbox" id="dark-mode">
@@ -18,5 +26,4 @@
         <button class="resume-button">Resume</button>
       </a>
     </div>
-  </div>
-</header>
+</nav>
