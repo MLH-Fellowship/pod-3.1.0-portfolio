@@ -97,16 +97,16 @@ Head to `_data` and fill out either `social_media.yml`. Here is an example for y
 - link: tel:+19876543210
   class: fas fa-phone-square-alt
 
-- link: mailto:username@company.com
+- link: mailto:fellowship@mlh.io
   class: fas fa-envelope
 
-- link: https://twitter.com/username
+- link: https://twitter.com/
   class: fab fa-twitter-square
 
-- link: https://linkedin.com/username
+- link: https://linkedin.com/
   class: fab fa-linkedin
 
-- link: https://github.com/username
+- link: https://github.com/MLH-Fellowship
   class: fab fa-github
 ```
 
