@@ -8,6 +8,9 @@
 @import 'footer';
 @import "podMember";
 
+html, body{
+  overflow-x: hidden;
+}
 /*-----Dark-Mode------*/
 .dark-mode{
   background-color: #121212!important;
