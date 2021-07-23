@@ -100,6 +100,10 @@ h2 {
   font-size: 1.2em;
 }
 
+.card:hover{
+  box-shadow:10px 10px #1c539f;
+}
+
 a {
   color: black;
 }
@@ -145,6 +149,7 @@ a {
 }
 .project:hover {
   background-color: #1c539f;
+  box-shadow:none !important;
 }
 .project:hover > .content {
   display: block;
@@ -180,10 +185,10 @@ a {
 }
 .loader-wrapper {
   --line-width: 5px;
-  --curtain-color: #f1faee;
-  --outer-line-color: #f5e149;
-  --middle-line-color: #1c539f;
-  --inner-line-color: #f29d0a;
+  --curtain-color: #ffffff;
+  --outer-line-color: #1261A0;
+  --middle-line-color: #3895d3;
+  --inner-line-color: #58cced;
   position:fixed;
   top:0;
   left:0;
