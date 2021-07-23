@@ -1,7 +1,7 @@
-- link: +1 9976543210
+- link: tel:+19876543210
   class: fas fa-phone-square-alt
 
-- link: https://twitter.com/username
+- link: mailto:username@company.com
   class: fas fa-envelope
 
 - link: https://twitter.com/username
