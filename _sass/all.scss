@@ -130,7 +130,6 @@ a {
   display: none;
   top: 0;
   left: 0;
-  cursor: pointer;
 }
 .project:hover {
   background-color: #1c539f;
@@ -145,4 +144,25 @@ a {
 
 .arrow {
   float: right;
+  cursor:pointer;
+}
+.circle {
+	position: absolute;
+  border: solid 2px #1c539f;
+	width: 10px; 
+	height: 10px; 
+  border-radius: 50%;  
+  background-color: white;
+   
+}
+.circle::after{
+   content: "";
+   width:50px;
+   height:50px;
+   position:absolute;
+   border: solid 4px #1c539f;
+   border-radius: 50%;
+   opacity: .8;
+   top: -23px;
+   right:-21px;
 }
