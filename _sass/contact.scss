@@ -1,5 +1,6 @@
 .contact {
 	font-family: 'Poppins', sans-serif;
+	position: relative;
 }
 #heading {
 	text-align: center;
@@ -43,7 +44,8 @@
 	outline: none;
 	opacity: 0.8;
 	transition: 0.5s;
-	position:relative;
+	display: block;
+	margin: auto;
 }
 button:hover {
 	opacity: 1.5;

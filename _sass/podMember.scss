@@ -1,10 +1,4 @@
-// body {
-//     background-color: #100e17;
-//     font-family: 'Open Sans', sans-serif;
-//   }
-
 .containerr {
-  // position: absolute;
   height: 300px;
   width: 100%;
   top: 60px;
@@ -23,11 +17,8 @@
   background-color: white;
   border-radius: 20px;
   border: 1px solid gray;
-  // box-shadow: -1rem 0 3rem #000;
-  /*   margin-left: -50px; */
   transition: 0.4s ease-out;
   position: relative;
-  // left: 50px;
 }
 
 .cardd:not(:first-child) {
@@ -37,7 +28,6 @@
 .cardd:hover {
   transform: translateY(-50px);
   transform: translateX(-50px);
-  // transform: translateZ(20px);
   transition: 0.4s ease-out;
 }
 
@@ -95,6 +85,11 @@
   position: absolute;
   top: 130px;
   left: calc(50% - 60px);
+  max-width: 100%;
+
+  img{
+    max-width: 100%;
+  }
 }
 
 .strokee {

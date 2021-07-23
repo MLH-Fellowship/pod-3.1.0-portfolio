@@ -15,3 +15,6 @@ jQuery(document).ready(function() {
     }, 20);
   
   });
+  window.addEventListener('load',function(){
+    document.querySelector('body').classList.add("loaded")  
+  });
