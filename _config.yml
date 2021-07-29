@@ -6,7 +6,7 @@ baseurl: "/"
 url: "/" 
 form_url: "https://formspree.io/f/mnqlbokq"
 twitter_username: mlhacks
-github_username:  mlh-fellowship
+github_username: OfiliPatrick
 
 sass:
   sass_dir: _sass
