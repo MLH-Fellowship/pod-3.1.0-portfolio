@@ -85,11 +85,17 @@
 	position: absolute;
 	top: 130px;
 	left: calc(50% - 60px);
+	max-width: 100%;
+
+	img{
+		max-width: 100%;
+	}
 }
 .profileimg {
 	height: 125px;
 	width: 125px;
 	border: 2px solid #1c539f;
+
 }
 
 .strokee {
